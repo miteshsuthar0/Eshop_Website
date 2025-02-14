@@ -3,7 +3,7 @@ import React from "react";
 import "../../App.css";
 import { Link } from "react-router-dom";
 import Search from "../Search/Search";
-import Badge, { BadgeProps } from "@mui/material/Badge";
+import Badge from "@mui/material/Badge";
 import { styled } from "@mui/material/styles";
 import IconButton from "@mui/material/IconButton";
 import { MdOutlineShoppingCart } from "react-icons/md";
@@ -29,7 +29,7 @@ const Header = () => {
   return (
     <div>
       <header className="bg-white">
-        <div className="top-strip py-2 border-t-[1px] border-b-[1px] border-gray-300 ">
+        <div className=" top-strip py-2 border-t-[1px] border-b-[1px] border-gray-300 ">
           <div className="container">
             <div className="flex items-center justify-between">
               <div className="col1 w-[50%]">
