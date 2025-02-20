@@ -6,7 +6,7 @@ import Home from "./Pages/Home/index"
 function App() {
   return <>
     <BrowserRouter>
-      <Header/>
+      <Header/> 
       <Home/>
     </BrowserRouter>
   </>;

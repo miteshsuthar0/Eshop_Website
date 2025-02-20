@@ -15,6 +15,19 @@ body{
     font-optical-sizing: auto;
     background-color: #f5f0f0;
     color: rgba(0,0,0,0.9);
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    width: 10px !important;
+    height: 10px !important;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #ff5252 !important;
+}
+::-webkit-scrollbar-track{
+    background: #fff !important;
 }
 
 .container {
@@ -36,3 +49,99 @@ body{
 nav ul Button{text-transform: capitalize !important;}
 
 nav ul Button{background: none !important;}
+
+
+.sliderHome{
+    overflow:inherit !important;
+}
+
+.homeSlider .swiper-button-prev, .swiper-button-next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 40px !important;
+    height: 40px !important;
+    color: black !important;
+    z-index: 1000;
+    box-shadow: 0 1px 3px #0000001f,0 1px 2px #0000003d!important;
+}
+
+.homeSlider .swiper-button-prev::after, .swiper-button-next::after{
+    font-size: 20px !important;
+    color: black !important;
+}
+
+.catSlider .swiper-button-prev, .swiper-button-next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 30px !important;
+    height: 30px !important;
+    color: black !important;
+    z-index: 1000;
+    box-shadow: 0 1px 3px #0000001f,0 1px 2px #0000003d!important;
+}
+
+.catSlider{
+    overflow: inherit !important;
+}
+
+.catSlider .swiper-button-prev::after, .swiper-button-next::after{
+    font-size: 15px !important;
+    color: black !important;
+}
+.catSlider .swiper-button-prev:hover, .swiper-button-next:hover{
+    transition: all;
+    background-color: #ff5252 !important;
+}
+.catSlider .swiper-button-prev:hover::after, .swiper-button-next:hover::after{
+color: #fff !important;
+}
+
+
+.catSlider .swiper-button-prev{
+    left: -10px !important;
+}
+.catSlider .swiper-button-next{
+    right: -10px !important;
+}
+
+
+/* ----------------------------------------- */
+
+.adsBannnerSlider .swiper-button-prev, .swiper-button-next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 30px !important;
+    height: 30px !important;
+    color: black !important;
+    z-index: 1000;
+    box-shadow: 0 1px 3px #0000001f,0 1px 2px #0000003d!important;
+}
+
+.adsBannnerSlider .swiper-button-prev::after, .swiper-button-next::after{
+    font-size: 15px !important;
+    color: black !important;
+}
+.adsBannnerSlider .swiper-button-prev:hover, .swiper-button-next:hover{
+    transition: all;
+    background-color: #ff5252 !important;
+}
+.adsBannnerSlider .swiper-button-prev:hover::after, .swiper-button-next:hover::after{
+color: #fff !important;
+}
+
+.rightSec .MuiTab-textColorPrimary.Mui-selected{
+    color: #ff5252 !important;
+}
+
+.rightSec .MuiTabs-indicator{
+    background-color: #ff5252 !important;
+}
